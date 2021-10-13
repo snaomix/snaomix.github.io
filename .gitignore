@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.idea/
+*.jpg
+*.gif
+*.png
+*.ico
+*.svg
+*.swp
+*.log
