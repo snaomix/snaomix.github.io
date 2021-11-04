@@ -1,0 +1,10 @@
+# dependabot.yml
+version: 2
+updates:
+# Configuration for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Asia/Tokyo"
