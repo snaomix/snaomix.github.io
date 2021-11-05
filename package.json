@@ -24,7 +24,7 @@
   "homepage": "https://github.com/snaomix/snaomix.github.io#readme",
   "devDependencies": {
     "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.3.2",
+    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.4",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
