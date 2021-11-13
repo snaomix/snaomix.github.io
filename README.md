@@ -7,12 +7,18 @@ webpackの[getting started]チュートリアルにしたがってスタート�
 ## note:
 * webpack v5以降を使用しています
 * Node.js v16.0.0以降 ＋dart-sassを使用
-* fibersはNode.js v16.0.0以降と互換性がないため使用していません🙅‍
+* [fibers](https://github.com/laverdet/node-fibers) はNode.js v16.0.0以降と互換性がないため使用していません🙅‍
 
 ## how to start
-gitからソースコードをcloneした後、nodeパッケージをインストール
 
+はじめにソースコードをclone:
 ```bash
+git clone git@github.com:snaomix/snaomix.github.io.git
+```
+
+nodeパッケージをインストール
+```bash
+cd snaomix.github.io
 npm install
 ```
 
@@ -29,3 +35,8 @@ npm run start
 [getting started]: https://webpack.js.org/guides/getting-started/
 [Bootstrap]: https://getbootstrap.com/
 [unsplash]: https://unsplash.com/
+
+## more info
+
+* [GitHub Pagesのドキュメンテーション](https://docs.github.com/ja/pages) … docs.github.com
+* [GitHub Pages examples](https://github.com/collections/github-pages-examples) … github.com

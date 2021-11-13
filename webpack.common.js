@@ -1,6 +1,11 @@
 const path = require('path');
+const glob = require('glob');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
+const PATHS = {
+  src: path.join(__dirname, 'src')
+}
 
 module.exports = {
   entry: {
@@ -21,7 +26,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].style.css",
     }),
-  ],
+    new PurgecssPlugin({
+      paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
+    }),  ],
   module: {
     rules: [
       {
