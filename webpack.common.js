@@ -28,8 +28,8 @@ module.exports = {
     }),
     new PurgecssPlugin({
       paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
-      // Add safelist because bootstrap carousel slide doesn't work
-      safelist: [/^carousel-/]
+      // Add safelist for bootstrap classes which added dynamically
+      safelist: [/^carousel-/, /^collaps/]
     }),
   ],
   module: {
