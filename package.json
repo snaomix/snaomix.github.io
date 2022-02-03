@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/snaomix/snaomix.github.io#readme",
   "devDependencies": {
-    "css-loader": "^6.5.1",
+    "css-loader": "^6.6.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
     "purgecss-webpack-plugin": "^4.1.3",
