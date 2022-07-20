@@ -10,10 +10,15 @@ $body-color: #666666;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/root";
 
-// 4. Include any optional Bootstrap CSS as needed
+// 6. Optionally include any other parts as needed
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/type";
@@ -47,8 +52,8 @@ $body-color: #666666;
 //@import "~bootstrap/scss/placeholders";
 @import "~bootstrap/scss/helpers";
 
-// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "~bootstrap/scss/utilities/api";
 
-// 6. Add additional custom code here
+// 8. Add additional custom code here
 @import "custom";
